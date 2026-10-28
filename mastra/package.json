@@ -1,0 +1,16 @@
+{
+  "name": "spectre-mastra-engine",
+  "version": "1.0.0",
+  "description": "Mastra agent orchestration engine for Spectre-CLI digital séance",
+  "main": "mastra.config.ts",
+  "scripts": {
+    "dev": "mastra dev",
+    "build": "mastra build",
+    "start": "mastra start"
+  },
+  "dependencies": {
+    "@mastra/core": "^0.1.0",
+    "@mastra/memory": "^0.1.0",
+    "zod": "^3.22.4"
+  }
+}

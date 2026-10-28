@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Spectre cache and generated audio artifacts
+.spectre_cache/
+
+# Node / Mastra build artifacts
+node_modules/
+dist/
+.mastra/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+.DS_Store
